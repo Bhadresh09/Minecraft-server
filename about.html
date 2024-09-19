@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Minecraft Server</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* General Styles for Consistency */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo img {
+      height: 60px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    nav ul li a.active, 
+    nav ul li a:hover {
+      background-color: #333;
+      color: #f4f4f4;
+      border-radius: 5px;
+    }
+
+    .about-section {
+      padding: 80px 20px;
+      background: #ffffff;
+      color: #333;
+      text-align: center;
+      margin-top: 80px; /* Adjusted to account for fixed header */
+    }
+
+    .about-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .team-member {
+      background: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 300px;
+      margin: 10px;
+      flex: 1 1 calc(33.333% - 40px);
+    }
+
+    .team-member img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+    }
+
+    .team-member h3 {
+      margin: 15px 0 10px;
+      font-size: 1.5rem;
+    }
+
+    .team-member p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .footer {
+      background: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="minecraft-logo.png" alt="Minecraft Server Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="servers.html">Servers</a></li>
+        <li><a href="discord-contact.html">Discord</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <h1>About Us</h1>
+    <p>Welcome to our Minecraft server! We are a passionate team dedicated to providing the best Minecraft experience. Our mission is to create a welcoming and exciting environment where players can connect, explore, and have fun.</p>
+    <p>We strive to offer a diverse range of game modes and activities to cater to every player’s interests. Our team is constantly working to enhance the server with new features, improvements, and events.</p>
+    <h2>Meet the Team</h2>
+    <div class="team">
+      <div class="team-member">
+        <img src="team-member1.jpg" alt="Team Member 1">
+        <h3>Jane Doe</h3>
+        <p>Server Administrator. Passionate about game design and community building.</p>
+      </div>
+      <div class="team-member">
+        <img src="team-member2.jpg" alt="Team Member 2">
+        <h3>John Smith</h3>
+        <p>Lead Developer. Expert in Minecraft plugins and server optimization.</p>
+      </div>
+      <div class="team-member">
+        <img src="team-member3.jpg" alt="Team Member 3">
+        <h3>Alice Johnson</h3>
+        <p>Community Manager. Dedicated to ensuring a friendly and engaging environment.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Minecraft Server. All rights reserved.</p>
+  </footer>
+</body>
+</html>
