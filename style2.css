@@ -1,0 +1,37 @@
+/* Servers Section */
+.servers-section {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+  }
+  
+  .servers-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .server-item {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+  }
+  
+  .copy-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .copy-btn:hover {
+    background-color: #4cae4c;
+  }
+  

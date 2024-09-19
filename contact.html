@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Contact - Minecraft Server</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* General Styles for Consistency */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo img {
+      height: 60px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    nav ul li a.active, 
+    nav ul li a:hover {
+      background-color: #333;
+      color: #f4f4f4;
+      border-radius: 5px;
+    }
+
+    .discord-contact-section {
+      padding: 80px 20px;
+      background: #ffffff;
+      color: #333;
+      text-align: center;
+      margin-top: 80px; /* Adjusted to account for fixed header */
+    }
+
+    .discord-contact-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .discord-contact-section p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .join-discord-btn {
+      background: #7289da;
+      color: #fff;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .join-discord-btn:hover {
+      background: #5b6eae;
+      transform: scale(1.05);
+    }
+
+    .join-discord-btn:active {
+      background: #4e5d94;
+    }
+
+    .footer {
+      background: #1a1a1a;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="minecraft-logo.png" alt="Minecraft Server Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="servers.html">Servers</a></li>
+        <li><a href="discord-contact.html" class="active">Discord</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Discord Contact Section -->
+  <section class="discord-contact-section">
+    <h1>Join Us on Discord!</h1>
+    <p>Connect with our community, get support, and stay updated by joining our Discord server.</p>
+    <a href="https://discord.gg/your-invite-link" target="_blank" class="join-discord-btn">Join Now</a>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Minecraft Server. All rights reserved.</p>
+  </footer>
+</body>
+</html>
